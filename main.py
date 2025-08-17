@@ -388,10 +388,10 @@ async def start_handler(_, message):
     buttons = [
         [
             InlineKeyboardButton(f"➕ {add_me_text}", url=f"{BOT_LINK}?startgroup=true"),
-            InlineKeyboardButton(f"📢 {updates_text}", url="https://t.me/abhi_work_station")
+            InlineKeyboardButton(f"📢 {updates_text}", url="https://t.me/neet_quiz_1")
         ],
         [
-            InlineKeyboardButton(f"💬 {support_text}", url="http://t.me/Onlymrabhi01"),
+            InlineKeyboardButton(f"💬 {support_text}", url="https://t.me/ncert_quiz21"),
             InlineKeyboardButton(f"❓ {help_text}", callback_data="show_help")
         ]
     ]
@@ -443,10 +443,10 @@ async def go_back_callback(_, callback_query):
     buttons = [
         [
             InlineKeyboardButton(f"➕ {add_me_text}", url=f"{BOT_LINK}?startgroup=true"),
-            InlineKeyboardButton(f"📢 {updates_text}", url="https://t.me/goku_work_station")
+            InlineKeyboardButton(f"📢 {updates_text}", url="https://t.me/ncert_quiz21")
         ],
         [
-            InlineKeyboardButton(f"💬 {support_text}", url="https://t.me/+IkBd8UBvZfxmM2Q1"),
+            InlineKeyboardButton(f"💬 {support_text}", url="https://t.me/neet_quiz_1"),
             InlineKeyboardButton(f"❓ {help_text}", callback_data="show_help")
         ]
     ]
